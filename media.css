@@ -14,4 +14,7 @@
         .secondSection{
             width: 50rem;
         }
+        body{
+            width: auto;
+        }
       }
