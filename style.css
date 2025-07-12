@@ -2,17 +2,7 @@
           padding: 0;
           margin: 0;
       }
-      @media (max-width: 800px){
-        body {
-            width: 800px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .rightFSection img{
-            display: none;
-        }
-      }
+    
 
       .projectNames {
           display: flex;
@@ -81,7 +71,7 @@
       }
 
       .firstSection>div {
-          width: 30%;
+          width: 30rem;
       }
 
       .leftFSection {
@@ -89,7 +79,7 @@
       }
 
       .rightFSection img {
-          width: 100%;
+          width: 35rem;
       }
 
       .secondSection {

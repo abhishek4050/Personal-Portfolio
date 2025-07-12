@@ -1,0 +1,17 @@
+  @media (max-width: 850px){
+      
+        nav {
+            display: none;
+        }
+        .rightFSection img{
+            display: none;
+        }
+        .leftFSection{
+            width: 90rem;
+            position: relative;
+            left: 20rem;
+        }
+        .secondSection{
+            width: 50rem;
+        }
+      }
