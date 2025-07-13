@@ -2,6 +2,26 @@
           padding: 0;
           margin: 0;
       }
+
+      @media (min-width: 1080px) {
+        @keyframes slideInLeft {
+          0% {
+            opacity: 0;
+            transform: translateX(-100px);
+          }
+          100% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+
+        .animate-slide-in {
+          animation-name: slideInLeft;
+          animation-duration: 1s;
+          animation-fill-mode: forwards;
+          opacity: 0;
+        }
+      }
     
 
       .projectNames {
